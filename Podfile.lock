@@ -1,0 +1,38 @@
+PODS:
+  - Alamofire (4.9.1)
+  - DropDown (2.3.13)
+  - IQKeyboardManagerSwift (6.5.5)
+  - SDWebImage (4.4.8):
+    - SDWebImage/Core (= 4.4.8)
+  - SDWebImage/Core (4.4.8)
+  - SwiftSpinner (2.1.0)
+  - Toast-Swift (5.0.1)
+
+DEPENDENCIES:
+  - Alamofire
+  - DropDown
+  - IQKeyboardManagerSwift
+  - SDWebImage (~> 4.0)
+  - SwiftSpinner
+  - Toast-Swift
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - DropDown
+    - IQKeyboardManagerSwift
+    - SDWebImage
+    - SwiftSpinner
+    - Toast-Swift
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  DropDown: 8a2116376c1981888557f72ec2ffc9a5e0e456ec
+  IQKeyboardManagerSwift: 0fb93310284665245591f50f7a5e38de615960b7
+  SDWebImage: 783af2c3fa36291a250030c4752ee370a9a51d13
+  SwiftSpinner: 0f15c006307f8d8bbac075638927ec1361b565d7
+  Toast-Swift: 9b6a70f28b3bf0b96c40d46c0c4b9d6639846711
+
+PODFILE CHECKSUM: 5164f1471fa9a7558795a85ac26563e512b83428
+
+COCOAPODS: 1.8.4
