@@ -11,7 +11,8 @@ target 'spectrum' do
     pod 'Alamofire'
     pod 'SDWebImage', '~> 4.0'
     pod 'SwiftSpinner'
-    
+    pod 'AlamofireObjectMapper', '~> 5.2'
+       
   # Pods for spectrum
 
 end

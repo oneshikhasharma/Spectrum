@@ -3,19 +3,32 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		092DBCDB23E2AB8600439250 /* Members.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092DBCDA23E2AB8600439250 /* Members.swift */; };
+		092DBCDF23E2AE8C00439250 /* companyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092DBCDE23E2AE8C00439250 /* companyTableViewCell.swift */; };
+		092DBCE223E2AED800439250 /* memberTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092DBCE123E2AED800439250 /* memberTableViewCell.swift */; };
 		098B428123E15C26000D9FC8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098B428023E15C26000D9FC8 /* AppDelegate.swift */; };
 		098B428323E15C26000D9FC8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098B428223E15C26000D9FC8 /* ViewController.swift */; };
 		098B428623E15C26000D9FC8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 098B428423E15C26000D9FC8 /* Main.storyboard */; };
 		098B428823E15C2D000D9FC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 098B428723E15C2D000D9FC8 /* Assets.xcassets */; };
 		098B428B23E15C2D000D9FC8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 098B428923E15C2D000D9FC8 /* LaunchScreen.storyboard */; };
+		098B429523E160CB000D9FC8 /* APIServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098B429223E160CB000D9FC8 /* APIServices.swift */; };
+		098B429623E160CB000D9FC8 /* DataServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098B429323E160CB000D9FC8 /* DataServices.swift */; };
+		098B429723E160CB000D9FC8 /* ServiceHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098B429423E160CB000D9FC8 /* ServiceHelper.swift */; };
+		098B429A23E1610E000D9FC8 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098B429923E1610E000D9FC8 /* Constants.swift */; };
+		098B429D23E16331000D9FC8 /* CompaniesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098B429C23E16331000D9FC8 /* CompaniesViewController.swift */; };
+		098B42A123E1940C000D9FC8 /* Company.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098B42A023E1940B000D9FC8 /* Company.swift */; };
+		098B42A623E1B68A000D9FC8 /* MembersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098B42A523E1B68A000D9FC8 /* MembersViewController.swift */; };
 		EA2BE8DA9FE31582C453658C /* Pods_spectrum.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7247D7D2022B9EE3025D9AF9 /* Pods_spectrum.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		092DBCDA23E2AB8600439250 /* Members.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Members.swift; sourceTree = "<group>"; };
+		092DBCDE23E2AE8C00439250 /* companyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = companyTableViewCell.swift; sourceTree = "<group>"; };
+		092DBCE123E2AED800439250 /* memberTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = memberTableViewCell.swift; sourceTree = "<group>"; };
 		098B427D23E15C26000D9FC8 /* spectrum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = spectrum.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		098B428023E15C26000D9FC8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		098B428223E15C26000D9FC8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -23,6 +36,13 @@
 		098B428723E15C2D000D9FC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		098B428A23E15C2D000D9FC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		098B428C23E15C2D000D9FC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		098B429223E160CB000D9FC8 /* APIServices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIServices.swift; sourceTree = "<group>"; };
+		098B429323E160CB000D9FC8 /* DataServices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataServices.swift; sourceTree = "<group>"; };
+		098B429423E160CB000D9FC8 /* ServiceHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceHelper.swift; sourceTree = "<group>"; };
+		098B429923E1610E000D9FC8 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		098B429C23E16331000D9FC8 /* CompaniesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompaniesViewController.swift; sourceTree = "<group>"; };
+		098B42A023E1940B000D9FC8 /* Company.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Company.swift; sourceTree = "<group>"; };
+		098B42A523E1B68A000D9FC8 /* MembersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MembersViewController.swift; sourceTree = "<group>"; };
 		7247D7D2022B9EE3025D9AF9 /* Pods_spectrum.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_spectrum.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		99F733BF74F8399529F55664 /* Pods-spectrum.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-spectrum.release.xcconfig"; path = "Target Support Files/Pods-spectrum/Pods-spectrum.release.xcconfig"; sourceTree = "<group>"; };
 		B664BCEDCEC52DD79A318266 /* Pods-spectrum.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-spectrum.debug.xcconfig"; path = "Target Support Files/Pods-spectrum/Pods-spectrum.debug.xcconfig"; sourceTree = "<group>"; };
@@ -40,6 +60,48 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		092DBCD923E2AB6D00439250 /* Members */ = {
+			isa = PBXGroup;
+			children = (
+				092DBCDC23E2AB8F00439250 /* Member Controller */,
+				092DBCDD23E2AB9B00439250 /* Member Model */,
+				092DBCE323E2AEEC00439250 /* Members Table Cells */,
+			);
+			path = Members;
+			sourceTree = "<group>";
+		};
+		092DBCDC23E2AB8F00439250 /* Member Controller */ = {
+			isa = PBXGroup;
+			children = (
+				098B42A523E1B68A000D9FC8 /* MembersViewController.swift */,
+			);
+			path = "Member Controller";
+			sourceTree = "<group>";
+		};
+		092DBCDD23E2AB9B00439250 /* Member Model */ = {
+			isa = PBXGroup;
+			children = (
+				092DBCDA23E2AB8600439250 /* Members.swift */,
+			);
+			path = "Member Model";
+			sourceTree = "<group>";
+		};
+		092DBCE023E2AEB500439250 /* Company Table Cells */ = {
+			isa = PBXGroup;
+			children = (
+				092DBCDE23E2AE8C00439250 /* companyTableViewCell.swift */,
+			);
+			path = "Company Table Cells";
+			sourceTree = "<group>";
+		};
+		092DBCE323E2AEEC00439250 /* Members Table Cells */ = {
+			isa = PBXGroup;
+			children = (
+				092DBCE123E2AED800439250 /* memberTableViewCell.swift */,
+			);
+			path = "Members Table Cells";
+			sourceTree = "<group>";
+		};
 		098B427423E15C26000D9FC8 = {
 			isa = PBXGroup;
 			children = (
@@ -63,12 +125,60 @@
 			children = (
 				098B428023E15C26000D9FC8 /* AppDelegate.swift */,
 				098B428223E15C26000D9FC8 /* ViewController.swift */,
+				098B429B23E16119000D9FC8 /* Constants */,
+				098B429823E160D3000D9FC8 /* Service Helper */,
+				098B42A223E1945E000D9FC8 /* Company */,
+				092DBCD923E2AB6D00439250 /* Members */,
 				098B428423E15C26000D9FC8 /* Main.storyboard */,
 				098B428723E15C2D000D9FC8 /* Assets.xcassets */,
 				098B428923E15C2D000D9FC8 /* LaunchScreen.storyboard */,
 				098B428C23E15C2D000D9FC8 /* Info.plist */,
 			);
 			path = spectrum;
+			sourceTree = "<group>";
+		};
+		098B429823E160D3000D9FC8 /* Service Helper */ = {
+			isa = PBXGroup;
+			children = (
+				098B429223E160CB000D9FC8 /* APIServices.swift */,
+				098B429323E160CB000D9FC8 /* DataServices.swift */,
+				098B429423E160CB000D9FC8 /* ServiceHelper.swift */,
+			);
+			path = "Service Helper";
+			sourceTree = "<group>";
+		};
+		098B429B23E16119000D9FC8 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				098B429923E1610E000D9FC8 /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		098B42A223E1945E000D9FC8 /* Company */ = {
+			isa = PBXGroup;
+			children = (
+				098B42A323E19474000D9FC8 /* Company Controller */,
+				098B42A423E19485000D9FC8 /* Company Model */,
+				092DBCE023E2AEB500439250 /* Company Table Cells */,
+			);
+			path = Company;
+			sourceTree = "<group>";
+		};
+		098B42A323E19474000D9FC8 /* Company Controller */ = {
+			isa = PBXGroup;
+			children = (
+				098B429C23E16331000D9FC8 /* CompaniesViewController.swift */,
+			);
+			path = "Company Controller";
+			sourceTree = "<group>";
+		};
+		098B42A423E19485000D9FC8 /* Company Model */ = {
+			isa = PBXGroup;
+			children = (
+				098B42A023E1940B000D9FC8 /* Company.swift */,
+			);
+			path = "Company Model";
 			sourceTree = "<group>";
 		};
 		D794B72AC64526A4B5D7DA2E /* Frameworks */ = {
@@ -85,7 +195,6 @@
 				B664BCEDCEC52DD79A318266 /* Pods-spectrum.debug.xcconfig */,
 				99F733BF74F8399529F55664 /* Pods-spectrum.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -204,8 +313,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				098B429723E160CB000D9FC8 /* ServiceHelper.swift in Sources */,
+				092DBCDB23E2AB8600439250 /* Members.swift in Sources */,
+				092DBCDF23E2AE8C00439250 /* companyTableViewCell.swift in Sources */,
+				092DBCE223E2AED800439250 /* memberTableViewCell.swift in Sources */,
+				098B42A623E1B68A000D9FC8 /* MembersViewController.swift in Sources */,
 				098B428323E15C26000D9FC8 /* ViewController.swift in Sources */,
 				098B428123E15C26000D9FC8 /* AppDelegate.swift in Sources */,
+				098B429523E160CB000D9FC8 /* APIServices.swift in Sources */,
+				098B42A123E1940C000D9FC8 /* Company.swift in Sources */,
+				098B429623E160CB000D9FC8 /* DataServices.swift in Sources */,
+				098B429D23E16331000D9FC8 /* CompaniesViewController.swift in Sources */,
+				098B429A23E1610E000D9FC8 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,6 +474,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J34Y5CTZ4L;
 				INFOPLIST_FILE = spectrum/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -362,7 +482,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.spectrum;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -374,6 +494,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J34Y5CTZ4L;
 				INFOPLIST_FILE = spectrum/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -381,7 +502,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.spectrum;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

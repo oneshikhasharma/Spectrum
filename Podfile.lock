@@ -1,7 +1,11 @@
 PODS:
   - Alamofire (4.9.1)
+  - AlamofireObjectMapper (5.2.1):
+    - Alamofire (~> 4.7)
+    - ObjectMapper (~> 3.4)
   - DropDown (2.3.13)
   - IQKeyboardManagerSwift (6.5.5)
+  - ObjectMapper (3.5.1)
   - SDWebImage (4.4.8):
     - SDWebImage/Core (= 4.4.8)
   - SDWebImage/Core (4.4.8)
@@ -10,6 +14,7 @@ PODS:
 
 DEPENDENCIES:
   - Alamofire
+  - AlamofireObjectMapper (~> 5.2)
   - DropDown
   - IQKeyboardManagerSwift
   - SDWebImage (~> 4.0)
@@ -19,20 +24,24 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - Alamofire
+    - AlamofireObjectMapper
     - DropDown
     - IQKeyboardManagerSwift
+    - ObjectMapper
     - SDWebImage
     - SwiftSpinner
     - Toast-Swift
 
 SPEC CHECKSUMS:
   Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  AlamofireObjectMapper: 1989f690e982b71921b9253f53a4f33a9bc00d88
   DropDown: 8a2116376c1981888557f72ec2ffc9a5e0e456ec
   IQKeyboardManagerSwift: 0fb93310284665245591f50f7a5e38de615960b7
+  ObjectMapper: 70187b8941977c62ccfb423caf6b50be405cabf0
   SDWebImage: 783af2c3fa36291a250030c4752ee370a9a51d13
   SwiftSpinner: 0f15c006307f8d8bbac075638927ec1361b565d7
   Toast-Swift: 9b6a70f28b3bf0b96c40d46c0c4b9d6639846711
 
-PODFILE CHECKSUM: 5164f1471fa9a7558795a85ac26563e512b83428
+PODFILE CHECKSUM: fcd6637964c7d60e70519ed503f5ac83c284f0fc
 
 COCOAPODS: 1.8.4
